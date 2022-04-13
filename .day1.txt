@@ -63,8 +63,9 @@ The syntax for deleting a property from an object is:
 delete ObjectName.ObjectProperty;
 
 The syntax to access a property from an object is:
+objectName.property ex:Car.Company
+objectName["property"]   ex:Car["Company"]
 
-objectName.property        ex:Car.Company
 
          
 
