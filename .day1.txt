@@ -1,0 +1,70 @@
+HTTP:
+
+*HTTP stands for hypertext transfer protocol,It is used in web applications .HTTP is the method used  by computers & servers to request information that is needed.
+For instance, when someone navigates to cloudflare.com on their laptop, their web browser sends an HTTP request to the Cloudflare servers for the content that appears on the page. 
+Then, Cloudflare servers send HTTP responses with the text, images, and formatting that the browser displays to the user.HTTP has two versions namely http1 & http 2.
+
+*In HTTP/2, developers have hands-on, detailed control over prioritization. This allows them to maximize perceived and actual page load speed to a degree that was not possible in HTTP/1.1.
+
+*HTTP/2 offers a feature called weighted prioritization. This allows developers to decide which page resources will load first, every time. In HTTP/2, when a client makes a request for a webpage, the server sends several streams of data to the client at once, instead of sending one thing after another. 
+
+*This method of data delivery is known as multiplexing. Developers can assign each of these data streams a different weighted value, and the value tells the client which data stream to render first.
+
+Objects and its internal representation in Javascript:-------
+
+“A JavaScript object is a collection of named values having state and behavior (properties and method)”.
+
+*For example: Person, car, pen, bike, Personal Computer , Washing Machine etc.
+
+Ex:cars;-
+
+All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods are performed at different times.
+
+Let’s have an example of my favorite merc car and list out its properties(Features):
+Company: Mercedes 
+Model: C-Class
+Color: White
+Fuel: Diesel
+Weight: 850kg
+Mileage: 8Kmpl
+Rating: 4.5
+
+1)Objects:
+The following code assigns a simple value (Mercedes) to a variable named car:
+
+var car = "Mercedes";
+Objects are variables too. But objects can contain many values.
+
+The following code assigns many values (Mercedes, C-class, White and soo on) to a variable named Car:
+
+var car = {Company: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};
+The values are written as name:value pairs (name and value separated by a colon).
+
+Syntax:
+
+var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
+“JavaScript objects are containers for named values”.
+
+2)Object Properties
+The name:values pairs (in JavaScript objects) are called properties.
+
+var car = {Company: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”,Mileage: “8Kmpl”, Rating: 4.5};
+
+The object properties can be different primitive values, other objects and functions.
+
+Properties can usually be changed, added, and deleted, but some are read only.
+
+The syntax for adding a property to an object is :
+
+ObjectName.ObjectProperty = propertyValue;
+
+The syntax for deleting a property from an object is:
+
+delete ObjectName.ObjectProperty;
+
+The syntax to access a property from an object is:
+
+objectName.property        ex:Car.Company
+
+         
+
